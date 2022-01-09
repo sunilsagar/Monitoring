@@ -12,9 +12,9 @@ function download() {
   find /tmp/Monitoring-master -type f -name '*.sh' -exec chmod 755 {} \;
 }
 
-function run_main_script() {
-  /bin/sh <file_name>
-}
+#function run_main_script() {
+#  /bin/sh <file_name>
+#}
 
 download;
 #run_main_script;
